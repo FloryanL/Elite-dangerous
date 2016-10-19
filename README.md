@@ -1,3 +1,3 @@
 # Elite-dangerous
 
-**[maquette](maquettes/ED2.png)**
+Refaire à l'identique la **[maquette](maquettes/ED2.png)**
