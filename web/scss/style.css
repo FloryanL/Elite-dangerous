@@ -7,6 +7,9 @@ body {
 a {
   text-decoration: none; }
 
+header, section, footer {
+  height: 100vh; }
+
 .navright {
   text-transform: uppercase;
   margin-right: 10vh;
@@ -16,10 +19,19 @@ a {
   display: inline-block;
   margin: 0 1vh; }
 
-.navright a {
+nav a {
   color: white; }
 
-.navright a:hover {
+nav a:hover {
   color: #f07b05; }
+
+.navcenter {
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10vh; }
+
+.navcenter li {
+  display: inline-block;
+  margin: 0 1vh; }
 
 /*# sourceMappingURL=style.css.map */
