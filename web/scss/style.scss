@@ -1,3 +1,7 @@
+// sass
+$bordo: 2px darkred;
+$shadow: 0px 0px 10px 1px darkred;
+
 body {
     margin: 0;
     background-color: black;
@@ -9,6 +13,8 @@ a {
 }
 header, section, footer {
     height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 // navbar
@@ -29,12 +35,41 @@ nav a:hover {
 }
 
 // header
-
+.heado {
+    background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
+    background-attachment: fixed;
+}
 
 // section
-
+.sect1 {
+    border: $bordo;
+    box-shadow: $shadow;
+    background-image: url(../img/bg/bg-hero-sidewinder.jpg);
+}
+.sect2 {
+    border: $bordo;
+    box-shadow: $shadow;
+    background-image: url(../img/bg/bg-hero-cobra_attack.jpg);
+}
+.sect3 {
+    border: $bordo;
+    box-shadow: $shadow;
+    background-image: url(../img/bg/bg-hero-powerplay-right.jpg);
+}
+.sect4 {
+    border: $bordo;
+    box-shadow: $shadow;
+    background-image: url(../img/bg/bg-hero-powerplay.jpg);
+}
+.sect5 {
+    border: $bordo;
+    box-shadow: $shadow;
+    background-image: url(../img/bg/bg-hero-stars.jpg);
+}
 
 // footer
+.foota {
+}
 .navcenter {
     text-transform: uppercase;
     text-align: center;
