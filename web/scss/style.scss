@@ -8,8 +8,9 @@
 
 // sass
 $font1 : Eurostile LT Std-Bold, sans-serif;
-$bordo: 2px darkred;
+$bordo: 2px solid darkred;
 $shadow: 0px 0px 10px 1px darkred;
+$color1: #f07b05;
 
 body {
     margin: 0;
@@ -23,6 +24,13 @@ a {
 h1 {
     font-weight: bold;
     font-size: 6.8vh;
+}
+button {
+    border: 2px solid darkred; 
+    background-color: black;
+    text-transform: uppercase;
+    padding: 1vh 5vh;
+    font-size: 1.5vh
 }
 header, section, footer {
     height: 100vh;
@@ -45,7 +53,7 @@ nav a {
     color: white;
 }
 nav a:hover {
-    color: #f07b05;
+    color: $color1;
 }
 
 // header
@@ -56,6 +64,9 @@ nav a:hover {
 .tctrl {
     margin: 50vh auto 5vh;
     text-transform: uppercase;
+}
+.buybutton {
+    border: 2px solid $color1; 
 }
 
 // section
