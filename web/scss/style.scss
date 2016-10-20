@@ -1,14 +1,15 @@
-// sass
-$font1 : EurostileLTPro, sans-serif;
-$bordo: 2px darkred;
-$shadow: 0px 0px 10px 1px darkred;
 
 // font
 @font-face {
-    font-family: "Eurostile LT Std";   
-    src: url('../web/font/EurostileLTStd-BoldEx2.ttf');
+    font-family: "Eurostile LT Std-Bold";
+    src: url('../font/EurostileLTStd-Bold.ttf');
     font-weight: bold;
 }
+
+// sass
+$font1 : Eurostile LT Std-Bold, sans-serif;
+$bordo: 2px darkred;
+$shadow: 0px 0px 10px 1px darkred;
 
 body {
     margin: 0;
@@ -18,6 +19,10 @@ body {
 }
 a {
     text-decoration: none;
+}
+h1 {
+    font-weight: bold;
+    font-size: 6.8vh;
 }
 header, section, footer {
     height: 100vh;
@@ -48,30 +53,34 @@ nav a:hover {
     background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
     background-attachment: fixed;
 }
+.tctrl {
+    margin: 50vh auto 5vh;
+    text-transform: uppercase;
+}
 
 // section
 .sect1 {
-    border: $bordo;
+    border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-sidewinder.jpg);
 }
 .sect2 {
-    border: $bordo;
+    border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-cobra_attack.jpg);
 }
 .sect3 {
-    border: $bordo;
+    border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-powerplay-right.jpg);
 }
 .sect4 {
-    border: $bordo;
+    border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-powerplay.jpg);
 }
 .sect5 {
-    border: $bordo;
+    border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-stars.jpg);
 }
