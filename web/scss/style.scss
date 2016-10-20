@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.navright {
+    text-transform: uppercase;
+    margin-right: 10vh;
+    float: right;
+}
+.navright li {
+    display: inline-block;
+    margin: 0 1vh;
+}
+.navright a {
+    color: white;
+}
+.navright a:hover {
+    color: #f07b05;
+}
