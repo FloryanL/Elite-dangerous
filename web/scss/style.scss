@@ -1,18 +1,27 @@
 // sass
+$font1 : EurostileLTPro, sans-serif;
 $bordo: 2px darkred;
 $shadow: 0px 0px 10px 1px darkred;
+
+// font
+@font-face {
+    font-family: "Eurostile LT Std";   
+    src: url('../web/font/EurostileLTStd-BoldEx2.ttf');
+    font-weight: bold;
+}
 
 body {
     margin: 0;
     background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: $font1;
 }
 a {
     text-decoration: none;
 }
 header, section, footer {
     height: 100vh;
+    font-weight: bold;
     background-size: 100%;
     background-repeat: no-repeat;
 }
