@@ -2,18 +2,26 @@
   font-family: "Eurostile LT Std-Bold";
   src: url("../font/EurostileLTStd-Bold.ttf");
   font-weight: bold; }
+@font-face {
+  font-family: "Eurostile-Medium";
+  src: url("../font/EurostileMedium.ttf");
+  font-weight: normal; }
 body {
   margin: 0;
   background-color: black;
   color: white;
-  font-family: Eurostile LT Std-Bold, sans-serif; }
+  font-family: Eurostile-Medium; }
 
 a {
   text-decoration: none; }
 
 h1 {
+  font-family: Eurostile LT Std-Bold, sans-serif;
   font-weight: bold;
   font-size: 6.8vh; }
+
+h2 {
+  font-size: 18px; }
 
 button {
   border: 2px solid darkred;
@@ -28,10 +36,14 @@ header, section, footer {
   background-size: 100%;
   background-repeat: no-repeat; }
 
+nav {
+  height: 10vh;
+  opacity: 0.9;
+  background-color: #040303; }
+
 .navright {
   text-transform: uppercase;
-  margin-right: 10vh;
-  float: right; }
+  margin-right: 10vh; }
 
 .navright li {
   display: inline-block;
@@ -48,8 +60,12 @@ nav a:hover {
   background-attachment: fixed; }
 
 .tctrl {
+  font-weight: normal;
   margin: 50vh auto 5vh;
   text-transform: uppercase; }
+
+.texth2 {
+  white-space: pre-line; }
 
 .buybutton {
   border: 2px solid #f07b05; }
@@ -87,5 +103,53 @@ nav a:hover {
 .navcenter li {
   display: inline-block;
   margin: 0 1vh; }
+
+ul {
+  list-style-type: none;
+  text-align: center; }
+
+li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block; }
+
+.marque1 {
+  background-image: url(../img/logo/partenaires/logo-frontier.png); }
+
+.marque2 {
+  background-image: url(../img/logo/partenaires/logo-cobra.png); }
+
+.marque3 {
+  background-image: url(../img/logo/partenaires/logo-xbox-one.png); }
+
+.marque4 {
+  background-image: url(../img/logo/partenaires/logo-nvidia.png); }
+
+.marque5 {
+  background-image: url(../img/logo/partenaires/logo-oculus.png); }
+
+.marque6 {
+  background-image: url(../img/logo/partenaires/logo-steam-vr.png); }
+
+.marque7 {
+  background-image: url(../img/logo/partenaires/logo-htc-vive.png); }
+
+.marque8 {
+  background-image: url(../img/logo/partenaires/logo-logitech.png); }
+
+.marque9 {
+  background-image: url(../img/logo/partenaires/logo-saitek.png); }
+
+.marque10 {
+  background-image: url(../img/logo/partenaires/logo-trackir.png); }
+
+.marque11 {
+  background-image: url(../img/logo/partenaires/logo-thrustmaster.png); }
+
+.marque12 {
+  background-image: url(../img/logo/partenaires/logo-pegi-7.png); }
+
+.marque13 {
+  background-image: url(../img/logo/partenaires/logo-esrb-teen.png); }
 
 /*# sourceMappingURL=style.css.map */
