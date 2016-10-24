@@ -37,6 +37,15 @@ header, section, footer {
   background-size: 100%;
   background-repeat: no-repeat; }
 
+.navlogo {
+  margin: 1vh 15vh; }
+
+.logo {
+  background-image: url(../img/logo/logo-elite-dangerous.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5vh 5vh; }
+
 .navright {
   text-transform: uppercase;
   margin-right: 10vh;
