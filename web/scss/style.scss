@@ -52,14 +52,13 @@ header, section, footer {
 }
 
 // navbar
-nav {
-    height: 10vh;
-    opacity: 0.9;
-    background-color: #040303;
-}
+
 .navright {
     text-transform: uppercase;
     margin-right: 10vh;
+    height: 10vh;
+    opacity: 0.9;
+    background-color: #040303;
 }
 .navright li {
     display: inline-block;
@@ -89,17 +88,19 @@ nav a:hover {
     border: 2px solid $color1; 
 }
 
-// section
+// sections
 .sect1 {
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-sidewinder.jpg);
 }
+
 .sect2 {
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-cobra_attack.jpg);
 }
+
 .sect3 {
     border-top: $bordo;
     box-shadow: $shadow;
@@ -120,7 +121,7 @@ nav a:hover {
 .navcenter {
     text-transform: uppercase;
     text-align: center;
-    margin-right: 10vh;
+    margin: 5vh 10vh 2vh;
 }
 .navcenter li {
     display: inline-block;

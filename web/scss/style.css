@@ -37,14 +37,12 @@ header, section, footer {
   background-size: 100%;
   background-repeat: no-repeat; }
 
-nav {
+.navright {
+  text-transform: uppercase;
+  margin-right: 10vh;
   height: 10vh;
   opacity: 0.9;
   background-color: #040303; }
-
-.navright {
-  text-transform: uppercase;
-  margin-right: 10vh; }
 
 .navright li {
   display: inline-block;
@@ -99,7 +97,7 @@ nav a:hover {
 .navcenter {
   text-transform: uppercase;
   text-align: center;
-  margin-right: 10vh; }
+  margin: 5vh 10vh 2vh; }
 
 .navcenter li {
   display: inline-block;
