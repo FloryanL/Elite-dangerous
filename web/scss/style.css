@@ -18,7 +18,8 @@ a {
 h1 {
   font-family: Eurostile LT Std-Bold, sans-serif;
   font-weight: bold;
-  font-size: 6.8vh; }
+  font-size: 6.8vh;
+  text-transform: uppercase; }
 
 h2 {
   font-size: 18px; }
