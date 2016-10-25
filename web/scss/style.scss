@@ -38,6 +38,9 @@ h2 {
     color: $color1;
     text-transform: uppercase;
 }
+p {
+    font-weight: normal;
+}
 button {
     border: 2px solid darkred; 
     background-color: black;
@@ -149,7 +152,7 @@ nav a:focus {
     background-image: url(../img/bg/bg-hero-powerplay.jpg);
 }
 .div4 {
-    margin: 1vh;
+    margin: 8vh 0vh;
 }
 
 .sect5 {
