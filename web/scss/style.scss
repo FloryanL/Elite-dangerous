@@ -31,7 +31,6 @@ a:hover, a:visited {
 h1 {
     font-family: $font1;
     font-weight: bold;
-    font-size: 7.8vh;
     text-transform: uppercase;
 }
 h2 {
@@ -48,15 +47,15 @@ button {
     font-size: 2vh;
 }
 header, section, footer {
-    height: 100vh;
     font-weight: bold;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 // navbar
 .navlogo {
-    margin: 1vh 15vh;
+    margin: 1vh 37vh;
 }
 .logo, .logo:hover, .logo:focus {
     background-image: url(../img/logo/logo-elite-dangerous.png);
@@ -69,7 +68,7 @@ header, section, footer {
     text-transform: uppercase;
     padding-right: 10vh;
     height: 13vh;
-    opacity: 0.95;
+    opacity: 0.9;
     background-color: #040303;
 }
 .navright li {
@@ -91,6 +90,8 @@ nav a:focus {
 .heado {
     background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
     background-attachment: fixed;
+    background-position: initial;
+    background-size: 100%;
     height: 92vh;
 }
 .tctrl {
@@ -108,42 +109,61 @@ nav a:focus {
 
 // sections
 .sect1 {
-    height: 86vh;
+    height: 58vh;
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-sidewinder.jpg);
 }
 .div1 {
-    margin: 22vh -5vh;
+    margin: 2vh -5vh;
 }
 
 .sect2 {
-    height: 86vh;
+    height: 58vh;
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-cobra_attack.jpg);
 }
 .div2 {
-    margin: 22vh 10vh;
+    margin: 12vh 20vh;
+    padding: 0vh 15vh;
+}
+.textdiv2 {
+    padding: 0 1vh;
 }
 
 .sect3 {
-    height: 86vh;
+    height: 58vh;
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-powerplay-right.jpg);
 }
 .sect4 {
-    height: 86vh;
+    height: 58vh;
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-powerplay.jpg);
 }
+.div4 {
+    margin: 1vh;
+}
+
 .sect5 {
-    height: 35vh;
+    height: 30vh;
     border-top: $bordo;
     box-shadow: $shadow;
     background-image: url(../img/bg/bg-hero-stars.jpg);
+}
+.div5 {
+    color: $color1;
+    margin: 8vh 0vh;
+}
+.div5 h1 {
+    font-size: 28px;
+    color: $color1;
+    font-family: $font2;
+    font-weight: normal;
+    line-height: 0.6;
 }
 
 // footer
@@ -205,4 +225,8 @@ ul {
 }
 .marque13 {
     background-image: url(../img/logo/partenaires/logo-esrb-teen.png);
+}
+.textlegal {
+    font-size: 9px;
+    padding: 0 36vh;
 }
