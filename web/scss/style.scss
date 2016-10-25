@@ -191,7 +191,7 @@ ul {
     background-size: contain;
     background-position: center center;
     display: inline-block;
-    height: 10%;
+    height: 6%;
     width: 10%;
 }
 .marque1 {
@@ -233,7 +233,16 @@ ul {
 .marque13 {
     background-image: url(../img/logo/partenaires/logo-esrb-teen.png);
 }
+
 .textlegal {
-    font-size: 9px;
+    font-size: 8px;
     padding: 0 36vh;
+    font-weight: normal;
+}
+.Mentionlegal {
+    color: $color1;
+}
+.Mentionlegal:hover {
+    color: $color1;
+    text-decoration: underline;
 }
