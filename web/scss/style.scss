@@ -25,7 +25,7 @@ body {
     color: white;
     font-family: $font2;
 }
-a {
+a:hover {
     text-decoration: none;
 }
 h1 {
@@ -79,6 +79,7 @@ nav a {
 }
 nav a:hover {
     color: $color1;
+    text-decoration: underline;
 }
 
 // header

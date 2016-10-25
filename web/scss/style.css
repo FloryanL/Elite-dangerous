@@ -12,7 +12,7 @@ body {
   color: white;
   font-family: Eurostile-Medium; }
 
-a {
+a:hover {
   text-decoration: none; }
 
 h1 {
@@ -63,7 +63,8 @@ nav a {
   color: white; }
 
 nav a:hover {
-  color: #f07b05; }
+  color: #f07b05;
+  text-decoration: underline; }
 
 .heado {
   background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
