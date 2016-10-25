@@ -139,10 +139,12 @@ ul {
     list-style-type: none;
     text-align: center;
 }
-li {
+.lifooter {
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
+    height: 50px;
+    width: 50px;
 }
 .marque1 {
     background-image: url(../img/logo/partenaires/logo-frontier.png);
