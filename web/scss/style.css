@@ -118,10 +118,10 @@ ul {
 
 .lifooter {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: inline-block;
-  height: 50px;
-  width: 50px; }
+  height: 10%;
+  width: 10%; }
 
 .marque1 {
   background-image: url(../img/logo/partenaires/logo-frontier.png); }
