@@ -49,9 +49,13 @@ header, section, footer {
   padding: 9.5vh;
   border-bottom: none; }
 
+.navtop {
+  font-size: 10px;
+  margin: 5vh 0vh 1vh; }
+
 .navright {
   text-transform: uppercase;
-  padding-right: 10vh;
+  padding-right: 36vh;
   height: 13vh;
   opacity: 0.9;
   background-color: #040303; }
@@ -146,11 +150,13 @@ nav a:focus {
 .navcenter {
   text-transform: uppercase;
   text-align: center;
-  margin: 5vh 10vh 2vh; }
+  margin: 5vh 10vh 3vh; }
 
 .navcenter li {
+  font-size: 13px;
   display: inline-block;
-  margin: 0 1vh; }
+  margin: 0 1vh;
+  font-weight: normal; }
 
 ul {
   list-style-type: none;
@@ -159,6 +165,7 @@ ul {
 .lifooter {
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center center;
   display: inline-block;
   height: 10%;
   width: 10%; }
