@@ -12,216 +12,217 @@ body {
   color: white;
   font-family: Eurostile-Medium; }
 
-a:hover, a:visited {
-  text-decoration: none; }
+@media only screen and (max-width: 1800px) {
+  a:hover, a:visited {
+    text-decoration: none; }
 
-h1 {
-  font-family: Eurostile LT Std-Bold, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase; }
+  h1 {
+    font-family: Eurostile LT Std-Bold, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; }
 
-h2 {
-  font-size: 18px;
-  color: #f07b05;
-  text-transform: uppercase; }
+  h2 {
+    font-size: 18px;
+    color: #f07b05;
+    text-transform: uppercase; }
 
-p {
-  font-weight: normal; }
+  p {
+    font-weight: normal; }
 
-button {
-  border: 2px solid darkred;
-  background-color: black;
-  text-transform: uppercase;
-  font-family: Eurostile LT Std-Bold, sans-serif;
-  padding: 2vh 7vh;
-  font-size: 2vh; }
+  button {
+    border: 2px solid darkred;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: Eurostile LT Std-Bold, sans-serif;
+    padding: 2vh 7vh;
+    font-size: 2vh; }
 
-header, section, footer {
-  font-weight: bold;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  header, section, footer {
+    font-weight: bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
 
-.navlogo {
-  margin: 1vh 37vh; }
+  .navlogo {
+    margin: 1vh 37vh; }
 
-.logo, .logo:hover, .logo:focus {
-  background-image: url(../img/logo/logo-elite-dangerous.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 9.5vh;
-  border-bottom: none; }
+  .logo, .logo:hover, .logo:focus {
+    background-image: url(../img/logo/logo-elite-dangerous.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 9.5vh;
+    border-bottom: none; }
 
-.navtop {
-  font-size: 10px;
-  margin: 5vh 0vh 1vh; }
+  .navtop {
+    font-size: 10px;
+    margin: 5vh 0vh 1vh; }
 
-.navright {
-  text-transform: uppercase;
-  padding-right: 36vh;
-  height: 13vh;
-  opacity: 0.9;
-  background-color: #040303; }
+  .navright {
+    text-transform: uppercase;
+    padding-right: 36vh;
+    height: 13vh;
+    opacity: 0.9;
+    background-color: #040303; }
 
-.navright li {
-  display: inline-block;
-  margin: 0 1vh; }
+  .navright li {
+    display: inline-block;
+    margin: 0 1vh; }
 
-nav a {
-  color: white; }
+  nav a {
+    color: white; }
 
-nav a:hover, nav a:focus {
-  color: #f07b05;
-  border-bottom: 2px solid #f07b05; }
+  nav a:hover, nav a:focus {
+    color: #f07b05;
+    border-bottom: 2px solid #f07b05; }
 
-nav a:focus {
-  text-decoration: none; }
+  nav a:focus {
+    text-decoration: none; }
 
-.heado {
-  background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
-  background-attachment: fixed;
-  background-position: initial;
-  background-size: 100%;
-  height: 92vh; }
+  .heado {
+    background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
+    background-attachment: fixed;
+    background-position: initial;
+    background-size: 100%;
+    height: 92vh; }
 
-.tctrl {
-  font-weight: normal;
-  margin: 56vh auto 1vh;
-  text-transform: uppercase; }
+  .tctrl {
+    font-weight: normal;
+    margin: 56vh auto 1vh;
+    text-transform: uppercase; }
 
-.texth2 {
-  white-space: pre-line;
-  margin: 0vh 0vh 2vh; }
+  .texth2 {
+    white-space: pre-line;
+    margin: 0vh 0vh 2vh; }
 
-.buybutton {
-  border: 2px solid #f07b05; }
+  .buybutton {
+    border: 2px solid #f07b05; }
 
-.sect1 {
-  height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-sidewinder.jpg); }
+  .sect1 {
+    height: 58vh;
+    border-top: 2px solid darkred;
+    box-shadow: 0px 0px 10px 1px darkred;
+    background-image: url(../img/bg/bg-hero-sidewinder.jpg); }
 
-.div1 {
-  margin: 2vh -5vh; }
+  .div1 {
+    margin: 2vh -5vh; }
 
-.sect2 {
-  height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-cobra_attack.jpg); }
+  .sect2 {
+    height: 58vh;
+    border-top: 2px solid darkred;
+    box-shadow: 0px 0px 10px 1px darkred;
+    background-image: url(../img/bg/bg-hero-cobra_attack.jpg); }
 
-.div2 {
-  margin: 12vh 20vh;
-  padding: 0vh 15vh; }
+  .div2 {
+    margin: 12vh 20vh;
+    padding: 0vh 15vh; }
 
-.textdiv2 {
-  padding: 0 1vh; }
+  .textdiv2 {
+    padding: 0 1vh; }
 
-.sect3 {
-  height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-powerplay-right.jpg); }
+  .sect3 {
+    height: 58vh;
+    border-top: 2px solid darkred;
+    box-shadow: 0px 0px 10px 1px darkred;
+    background-image: url(../img/bg/bg-hero-powerplay-right.jpg); }
 
-.sect4 {
-  height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-powerplay.jpg); }
+  .sect4 {
+    height: 58vh;
+    border-top: 2px solid darkred;
+    box-shadow: 0px 0px 10px 1px darkred;
+    background-image: url(../img/bg/bg-hero-powerplay.jpg); }
 
-.div4 {
-  margin: 8vh 0vh; }
+  .div4 {
+    margin: 8vh 0vh; }
 
-.sect5 {
-  height: 30vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-stars.jpg); }
+  .sect5 {
+    height: 30vh;
+    border-top: 2px solid darkred;
+    box-shadow: 0px 0px 10px 1px darkred;
+    background-image: url(../img/bg/bg-hero-stars.jpg); }
 
-.div5 {
-  color: #f07b05;
-  margin: 8vh 0vh; }
+  .div5 {
+    color: #f07b05;
+    margin: 8vh 0vh; }
 
-.div5 h1 {
-  font-size: 28px;
-  color: #f07b05;
-  font-family: Eurostile-Medium;
-  font-weight: normal;
-  line-height: 0.6; }
+  .div5 h1 {
+    font-size: 28px;
+    color: #f07b05;
+    font-family: Eurostile-Medium;
+    font-weight: normal;
+    line-height: 0.6; }
 
-.navcenter {
-  text-transform: uppercase;
-  text-align: center;
-  margin: 5vh 10vh 3vh; }
+  .navcenter {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5vh 10vh 3vh; }
 
-.navcenter li {
-  font-size: 13px;
-  display: inline-block;
-  margin: 0 1vh;
-  font-weight: normal; }
+  .navcenter li {
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 1vh;
+    font-weight: normal; }
 
-ul {
-  list-style-type: none;
-  text-align: center; }
+  ul {
+    list-style-type: none;
+    text-align: center; }
 
-.lifooter {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  height: 6%;
-  width: 10%; }
+  .lifooter {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    height: 6%;
+    width: 10%; }
 
-.marque1 {
-  background-image: url(../img/logo/partenaires/logo-frontier.png); }
+  .marque1 {
+    background-image: url(../img/logo/partenaires/logo-frontier.png); }
 
-.marque2 {
-  background-image: url(../img/logo/partenaires/logo-cobra.png); }
+  .marque2 {
+    background-image: url(../img/logo/partenaires/logo-cobra.png); }
 
-.marque3 {
-  background-image: url(../img/logo/partenaires/logo-xbox-one.png); }
+  .marque3 {
+    background-image: url(../img/logo/partenaires/logo-xbox-one.png); }
 
-.marque4 {
-  background-image: url(../img/logo/partenaires/logo-nvidia.png); }
+  .marque4 {
+    background-image: url(../img/logo/partenaires/logo-nvidia.png); }
 
-.marque5 {
-  background-image: url(../img/logo/partenaires/logo-oculus.png); }
+  .marque5 {
+    background-image: url(../img/logo/partenaires/logo-oculus.png); }
 
-.marque6 {
-  background-image: url(../img/logo/partenaires/logo-steam-vr.png); }
+  .marque6 {
+    background-image: url(../img/logo/partenaires/logo-steam-vr.png); }
 
-.marque7 {
-  background-image: url(../img/logo/partenaires/logo-htc-vive.png); }
+  .marque7 {
+    background-image: url(../img/logo/partenaires/logo-htc-vive.png); }
 
-.marque8 {
-  background-image: url(../img/logo/partenaires/logo-logitech.png); }
+  .marque8 {
+    background-image: url(../img/logo/partenaires/logo-logitech.png); }
 
-.marque9 {
-  background-image: url(../img/logo/partenaires/logo-saitek.png); }
+  .marque9 {
+    background-image: url(../img/logo/partenaires/logo-saitek.png); }
 
-.marque10 {
-  background-image: url(../img/logo/partenaires/logo-trackir.png); }
+  .marque10 {
+    background-image: url(../img/logo/partenaires/logo-trackir.png); }
 
-.marque11 {
-  background-image: url(../img/logo/partenaires/logo-thrustmaster.png); }
+  .marque11 {
+    background-image: url(../img/logo/partenaires/logo-thrustmaster.png); }
 
-.marque12 {
-  background-image: url(../img/logo/partenaires/logo-pegi-7.png); }
+  .marque12 {
+    background-image: url(../img/logo/partenaires/logo-pegi-7.png); }
 
-.marque13 {
-  background-image: url(../img/logo/partenaires/logo-esrb-teen.png); }
+  .marque13 {
+    background-image: url(../img/logo/partenaires/logo-esrb-teen.png); }
 
-.textlegal {
-  font-size: 8px;
-  padding: 0 36vh;
-  font-weight: normal; }
+  .textlegal {
+    font-size: 8px;
+    padding: 0 36vh;
+    font-weight: normal; }
 
-.Mentionlegal {
-  color: #f07b05; }
+  .Mentionlegal {
+    color: #f07b05; }
 
-.Mentionlegal:hover {
-  color: #f07b05;
-  text-decoration: underline; }
+  .Mentionlegal:hover {
+    color: #f07b05;
+    text-decoration: underline; } }
 
 /*# sourceMappingURL=style.css.map */
