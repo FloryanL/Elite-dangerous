@@ -25,9 +25,6 @@ body {
     font-family: $font2;
 }
 
-// media for laptop
-@media only screen and (max-width : 1800px) {
-
 a:hover, a:visited {
     text-decoration: none;
 }
@@ -95,7 +92,6 @@ nav a:hover, nav a:focus {
 nav a:focus {
     text-decoration: none;
 }
-
 // header
 .heado {
     background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
@@ -252,5 +248,98 @@ ul {
     color: $color1;
     text-decoration: underline;
 }
+
+// media for laptop
+@media only screen and (max-width : 1800px) {
+
+    // navbar
+    .navlogo {
+        margin: 1vh 15vh;
+    }
+    .logo, .logo:hover, .logo:focus {
+        padding: 9.5vh;
+        border-bottom: none;
+    }
+    .navtop {
+        font-size: 10px;
+        margin: 5vh 0vh 1vh;
+    }
+    .navright {
+        padding-right: 16vh;
+        height: 13vh;
+    }
+    .navright li {
+        display: inline-block;
+        margin: 0 1vh;
+    }
+
+    // header
+    .heado {
+        height: 92vh;
+    }
+    .tctrl {
+        margin: 56vh auto 1vh;
+    }
+    .texth2 {
+        white-space: pre-line;
+        margin: 0vh 0vh 2vh;
+    }
+
+    // sections
+    .sect1 {
+        height: 58vh;
+    }
+    .div1 {
+        margin: 2vh -5vh;
+    }
+
+    .sect2 {
+        height: 58vh;
+    }
+    .div2 {
+        margin: 2vh 20vh;
+        padding: 0vh 15vh;
+    }
+    .textdiv2 {
+        padding: 0 1vh;
+    }
+    .sect3 {
+        height: 58vh;
+    }
+    .sect4 {
+        height: 58vh;
+    }
+    .div4 {
+        margin: 8vh 0vh;
+    }
+    .sect5 {
+        height: 30vh;
+    }
+    .div5 {
+        margin: 8vh 0vh;
+    }
+    .div5 h1 {
+        font-size: 28px;
+        color: $color1;
+        line-height: 0.6;
+    }
+
+    // footer
+    .navcenter {
+        margin: 5vh 10vh 3vh;
+    }
+    .navcenter li {
+        font-size: 13px;
+        margin: 0 1vh;
+        font-weight: normal;
+    }
+    .lifooter {
+        height: 6%;
+        width: 10%;
+    }
+    .textlegal {
+        font-size: 8px;
+        padding: 0 36vh;
+    }
 
 }
