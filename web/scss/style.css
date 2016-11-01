@@ -124,6 +124,43 @@ nav a:focus {
   box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/bg/bg-hero-powerplay-right.jpg); }
 
+.sect3 button, .sect4 button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.sect3 button:before, .sect4 button:before {
+  content: "";
+  background-color: darkred;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.sect3 button:hover:hover:before, .sect3 button:hover:focus:before, .sect3 button:hover:active:before,
+.sect4 button:hover:hover:before, .sect4 button:hover:focus:before, .sect4 button:hover:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
 .sect4 {
   height: 58vh;
   border-top: 2px solid darkred;
@@ -172,6 +209,30 @@ ul {
   display: inline-block;
   height: 6%;
   width: 10%; }
+
+.marksocial {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  margin: 0 -5vh;
+  height: 4%;
+  width: 10%; }
+
+.soc1 {
+  background-image: url(../img/logo/sociaux/logo-twitter.png); }
+
+.soc2 {
+  background-image: url(../img/logo/sociaux/logo-facebook.png); }
+
+.soc3 {
+  background-image: url(../img/logo/sociaux/logo-instagram.png); }
+
+.soc4 {
+  background-image: url(../img/logo/sociaux/logo-youtube.png); }
+
+.soc5 {
+  background-image: url(../img/logo/sociaux/logo-reddit.png); }
 
 .marque1 {
   background-image: url(../img/logo/partenaires/logo-frontier.png); }
@@ -225,6 +286,9 @@ ul {
   text-decoration: underline; }
 
 @media only screen and (max-width: 1800px) {
+  header h1 {
+    font-size: 8vh; }
+
   .navlogo {
     margin: 1vh 15vh; }
 
@@ -233,16 +297,17 @@ ul {
     border-bottom: none; }
 
   .navtop {
-    font-size: 10px;
+    font-size: 9px;
     margin: 5vh 0vh 1vh; }
 
   .navright {
+    font-size: 2.2vh;
     padding-right: 16vh;
     height: 13vh; }
 
   .navright li {
     display: inline-block;
-    margin: 0 1vh; }
+    margin: 0 1.5vh; }
 
   .heado {
     height: 92vh; }
