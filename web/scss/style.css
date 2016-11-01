@@ -77,6 +77,10 @@ nav a:hover, nav a:focus {
 nav a:focus {
   text-decoration: none; }
 
+.navactive {
+  background-color: #f07b05;
+  padding: 0 0.5vh; }
+
 .heado {
   background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
   background-attachment: fixed;
@@ -208,7 +212,8 @@ ul {
   background-position: center center;
   display: inline-block;
   height: 6%;
-  width: 10%; }
+  width: 10%;
+  margin: 0 1vh; }
 
 .marksocial {
   background-repeat: no-repeat;
@@ -253,7 +258,8 @@ ul {
   background-image: url(../img/logo/partenaires/logo-steam-vr.png); }
 
 .marque7 {
-  background-image: url(../img/logo/partenaires/logo-htc-vive.png); }
+  background-image: url(../img/logo/partenaires/logo-htc-vive.png);
+  margin: 0 -3vh; }
 
 .marque8 {
   background-image: url(../img/logo/partenaires/logo-logitech.png); }
@@ -320,38 +326,46 @@ ul {
     margin: 0vh 0vh 2vh; }
 
   .sect1 {
-    height: 58vh; }
+    height: 70vh; }
 
   .div1 {
-    margin: 2vh -5vh; }
+    margin: 14vh -5vh; }
 
   .sect2 {
-    height: 58vh; }
+    height: 70vh; }
 
   .div2 {
-    margin: 2vh 20vh;
-    padding: 0vh 15vh; }
+    margin: 17vh 0vh;
+    padding: 0vh 1vh 0 15vh; }
 
   .textdiv2 {
-    padding: 0 1vh; }
+    padding: 0 1vh;
+    font-size: 12px; }
 
   .sect3 {
-    height: 58vh; }
+    height: 70vh; }
+
+  .div3 {
+    margin: 10vh 0vh;
+    padding: 0vh 1vh 0 15vh; }
+
+  .textdiv3 {
+    font-size: 12px; }
 
   .sect4 {
-    height: 58vh; }
+    height: 72vh; }
 
   .div4 {
     margin: 8vh 0vh; }
 
   .sect5 {
-    height: 30vh; }
+    height: 28vh; }
 
   .div5 {
-    margin: 8vh 0vh; }
+    margin: 6.5vh 0vh; }
 
   .div5 h1 {
-    font-size: 28px;
+    font-size: 26px;
     color: #f07b05;
     line-height: 0.6; }
 
@@ -369,6 +383,6 @@ ul {
 
   .textlegal {
     font-size: 8px;
-    padding: 0 36vh; } }
+    padding: 3vh 12vh; } }
 
 /*# sourceMappingURL=style.css.map */
