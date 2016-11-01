@@ -220,9 +220,9 @@ ul {
   background-size: contain;
   background-position: center center;
   display: inline-block;
-  margin: 0 -5vh;
-  height: 4%;
-  width: 10%; }
+  margin: 0 -6vh;
+  height: 3%;
+  width: 9%; }
 
 .soc1 {
   background-image: url(../img/logo/sociaux/logo-twitter.png); }
@@ -250,6 +250,15 @@ ul {
 
 .marque4 {
   background-image: url(../img/logo/partenaires/logo-nvidia.png); }
+
+.mark3 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  height: 5%;
+  width: 7%;
+  margin: 0 1vh; }
 
 .marque5 {
   background-image: url(../img/logo/partenaires/logo-oculus.png); }
@@ -376,6 +385,11 @@ ul {
     font-size: 13px;
     margin: 0 1vh;
     font-weight: normal; }
+
+  .marksocial {
+    margin: 0 -5vh;
+    height: 4%;
+    width: 10%; }
 
   .lifooter {
     height: 6%;
