@@ -98,7 +98,7 @@ nav a:focus {
   padding: 0 0.5vh; }
 
 .heado {
-  background-image: url(../img/bg/bg-hero-connected_gameplay-slim.jpg);
+  background-image: url(../img/story/bg-hero-connected_gameplay-slim.jpg);
   background-attachment: fixed;
   background-position: initial;
   background-size: 100%;
@@ -120,7 +120,7 @@ nav a:focus {
   height: 58vh;
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-sidewinder.jpg); }
+  background-image: url(../img/story/bg-hero-sidewinder.jpg); }
 
 .div1 {
   margin: 16vh -5vh; }
@@ -129,7 +129,7 @@ nav a:focus {
   height: 58vh;
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-cobra_attack.jpg); }
+  background-image: url(../img/story/bg-hero-cobra_attack.jpg); }
 
 .div2 {
   margin: 12vh 20vh;
@@ -142,7 +142,7 @@ nav a:focus {
   height: 58vh;
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-powerplay-right.jpg); }
+  background-image: url(../img/story/bg-hero-powerplay-right.jpg); }
 
 .sect3 button, .sect4 button {
   display: inline-block;
@@ -189,7 +189,7 @@ nav a:focus {
   height: 58vh;
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-powerplay.jpg); }
+  background-image: url(../img/story/bg-hero-powerplay.jpg); }
 
 .div4 {
   margin: 8vh 0vh; }
@@ -198,7 +198,7 @@ nav a:focus {
   height: 30vh;
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred;
-  background-image: url(../img/bg/bg-hero-stars.jpg); }
+  background-image: url(../img/story/bg-hero-stars.jpg); }
 
 .div5 {
   color: #f07b05;
