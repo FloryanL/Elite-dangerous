@@ -1,3 +1,19 @@
+/*	resolution: 320px	mobile
+	resolution: 768px	tablette
+	resolution: 1280px	standard
+
+@media screen and (max-width: 320px)
+{
+
+}
+@media screen and (max-width: 768px)
+{
+	
+}
+@media screen and (max-width: 1280px)
+{
+	
+}	*/
 
 // font
 @font-face {
@@ -125,9 +141,8 @@ nav a:focus {
     background-image: url(../img/bg/bg-hero-sidewinder.jpg);
 }
 .div1 {
-    margin: 2vh -5vh;
+    margin: 16vh -5vh;
 }
-
 .sect2 {
     height: 58vh;
     border-top: $bordo;
@@ -180,6 +195,10 @@ nav a:focus {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+.div3 {
+    margin: 10vh 0vh;
+    padding: 0vh 1vh 0 15vh;
+}
 .sect3 button:hover:hover:before, .sect3 button:hover:focus:before, .sect3 button:hover:active:before,
 .sect4 button:hover:hover:before, .sect4 button:hover:focus:before, .sect4 button:hover:active:before {
     -webkit-transform: scaleX(1);
@@ -205,7 +224,7 @@ nav a:focus {
 }
 .div5 {
     color: $color1;
-    margin: 8vh 0vh;
+    margin: 9vh 0vh;
 }
 .div5 h1 {
     font-size: 28px;
@@ -406,7 +425,7 @@ ul {
         height: 28vh;
     }
     .div5 {
-        margin: 6.5vh 0vh;
+        margin: 8vh 0vh;
     }
     .div5 h1 {
         font-size: 26px;
