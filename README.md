@@ -1,6 +1,6 @@
 # Elite-dangerous
 
-Refaire à l'identique la **[maquette](maquettes/ED2_maquette1.png)**
+Refaire à l'identique la **[maquette](maquettes/ED2_maquette1.png)**<br/>
 La deuxième maquette qui est la page **[gameplay](maquettes/ED2_maquette2.png)**
 
 Voici le résultat de la 1ère maquette : 
