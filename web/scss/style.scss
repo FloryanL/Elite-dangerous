@@ -357,6 +357,24 @@ ul {
 .sect2gplay {
         background-image: url(../img/gameplay/bg-hero-stars.jpg);
 }
+.sect3gplay {
+        background-image: url(../img/gameplay/bg-hero-shipyard_vulture-right.jpg);
+}
+.sect4gplay {
+        background-image: url(../img/gameplay/bg-hero-imperial_eagle-left.jpg);
+}
+.sect5gplay {
+        background-image: url(../img/gameplay/bg-hero-wings-right.jpg);
+}
+.sect6gplay {
+        background-image: url(../img/gameplay/bg-hero-community-zac.jpg);
+}
+.sect7gplay {
+        background-image: url(../img/gameplay/bg-hero-cqc-slim.jpg);
+}
+.sect8gplay {
+        background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
+}
 
 // media for laptop
 @media only screen and (max-width : 1370px) {
@@ -399,14 +417,8 @@ ul {
     }
 
     // sections story
-    .sect1 {
-        height: 70vh;
-    }
     .div1 {
         margin: 14vh -5vh;
-    }
-    .sect2 {
-        height: 70vh;
     }
     .div2 {
         margin: 17vh 0vh;
@@ -416,9 +428,6 @@ ul {
         padding: 0 1vh;
         font-size: 12px;
     }
-    .sect3 {
-        height: 70vh;
-    }
     .div3 {
         margin: 10vh 0vh;
         padding: 0vh 1vh 0 15vh;
@@ -426,14 +435,8 @@ ul {
     .textdiv3 {
         font-size: 12px;
     }
-    .sect4 {
-        height: 72vh;
-    }
     .div4 {
         margin: 8vh 0vh;
-    }
-    .sect5 {
-        height: 28vh;
     }
     .div5 {
         margin: 8vh 0vh;
