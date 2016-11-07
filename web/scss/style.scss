@@ -469,6 +469,9 @@ ul {
     }
 
     // footer
+    footer {
+        height: 88vh;
+    }
     .navcenter {
         margin: 5vh 10vh 3vh;
     }
@@ -479,12 +482,16 @@ ul {
     }
     .marksocial {
         margin: 0 -5vh;
-        height: 4%;
-        width: 10%;
+        height: 4vh;
+        width: 9vw;
     }
     .lifooter {
-        height: 6%;
-        width: 10%;
+        height: 6vh;
+        width: 12vw;
+    }
+    .mark3 {
+        height: 5vh;
+        width: 7vw;
     }
     .textlegal {
         font-size: 8px;
