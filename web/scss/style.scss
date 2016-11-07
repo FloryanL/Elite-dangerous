@@ -136,20 +136,20 @@ header, section, footer {
     opacity: 0.9;
     background-color: #040303;
 }
-.navright li {
+.navright li a{
     display: inline-block;
-    margin: 0 1vh;
+    margin: 1vh 1vh;
 }
 nav a {
     color: white;
 }
 nav a:hover, nav a:focus {
     color: $color1;
-}
-nav li:hover, nav li:focus {
-    color: $color1;
     border-bottom: 2px solid #f07b05;
 }
+/*nav li:hover, nav li:focus {
+    color: $color1;
+}*/
 nav a:focus {
     text-decoration: none;
 }
@@ -309,13 +309,14 @@ ul {
 }
 .marque5 {
     background-image: url(../img/logo/partenaires/logo-oculus.png);
+    margin: 0vh 3vh !important;
 }
 .marque6 {
     background-image: url(../img/logo/partenaires/logo-steam-vr.png);
 }
 .marque7 {
     background-image: url(../img/logo/partenaires/logo-htc-vive.png);
-    margin: 0 -3vh;
+    margin: 0 -8vh 0 -6vh !important;
 }
 .marque8 {
     background-image: url(../img/logo/partenaires/logo-logitech.png);
@@ -325,6 +326,7 @@ ul {
 }
 .marque10 {
     background-image: url(../img/logo/partenaires/logo-trackir.png);
+    margin: 0vh 3vh 0 0 !important;
 }
 .marque11 {
     background-image: url(../img/logo/partenaires/logo-thrustmaster.png);
@@ -409,7 +411,7 @@ ul {
     }
     .navtop {
         font-size: 11px;
-        margin: 5vh 0vh 1vh;
+        margin: 3vh 0vh 0vh;
     }
     .navright {
         font-size: 16px;
@@ -484,14 +486,27 @@ ul {
         font-weight: normal;
     }
     .marksocial {
-        margin: 0 -5vh;
+        margin: 0 auto;
         height: 4vh;
-        width: 8vw;
+        width: 3.5vw;
     }
-    .mark1 {
+    .mark1-1 {
+        width: 10vw !important;
+        height: 10vh !important;
+        margin: -1vh -2vh !important;
+    }
+    .mark1-2 {
         width: 20vh !important;
         height: 10vh !important;
         margin: 0vh !important;
+    }
+    .mark2-1 {
+        height: 11vh !important;
+        width: 17vw !important;
+    }
+    .mark2-2 {
+        height: 11vh !important;
+        width: 12vw !important;
     }
     .lifooter {
         height: 6vh;
@@ -499,11 +514,16 @@ ul {
     }
     .mark3 {
         height: 5vh;
-        width: 7vw;
+        width: 10.5vw;
+        margin: 0vh -1vh;
+    }
+    .mark4 {
+        height: 12vh;
+        width: 13vw;
     }
     .textlegal {
         font-size: 12px;
-        padding: 3vh 12vh;
+        padding: 3vh 18vh;
     }
 
 }
