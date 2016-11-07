@@ -135,10 +135,12 @@ nav a:focus {
 }
 
 // sections
-.sect1 {
-    height: 58vh;
+.sectall {
     border-top: $bordo;
     box-shadow: $shadow;
+}
+.sect1 {
+    height: 58vh;
     background-image: url(../img/story/bg-hero-sidewinder.jpg);
 }
 .div1 {
@@ -146,8 +148,6 @@ nav a:focus {
 }
 .sect2 {
     height: 58vh;
-    border-top: $bordo;
-    box-shadow: $shadow;
     background-image: url(../img/story/bg-hero-cobra_attack.jpg);
 }
 .div2 {
@@ -160,8 +160,6 @@ nav a:focus {
 
 .sect3 {
     height: 58vh;
-    border-top: $bordo;
-    box-shadow: $shadow;
     background-image: url(../img/story/bg-hero-powerplay-right.jpg);
 }
 
@@ -214,8 +212,6 @@ nav a:focus {
 
 .sect4 {
     height: 58vh;
-    border-top: $bordo;
-    box-shadow: $shadow;
     background-image: url(../img/story/bg-hero-powerplay.jpg);
 }
 .div4 {
@@ -224,8 +220,6 @@ nav a:focus {
 
 .sect5 {
     height: 30vh;
-    border-top: $bordo;
-    box-shadow: $shadow;
     background-image: url(../img/story/bg-hero-stars.jpg);
 }
 .div5 {
@@ -356,6 +350,13 @@ ul {
 .gplay {
     background-image: url(../img/gameplay/bg-hero-asp-slim.jpg);
 }
+// sections gameplay
+.sect1gplay {
+    background-image: url(../img/gameplay/bg-hero-connected_gameplay-right.jpg);
+}
+.sect2gplay {
+        background-image: url(../img/gameplay/bg-hero-stars.jpg);
+}
 
 // media for laptop
 @media only screen and (max-width : 1370px) {
@@ -397,7 +398,7 @@ ul {
         margin: 0vh 0vh 2vh;
     }
 
-    // sections
+    // sections story
     .sect1 {
         height: 70vh;
     }
@@ -441,6 +442,10 @@ ul {
         font-size: 26px;
         color: $color1;
         line-height: 0.6;
+    }
+    // section gameplay
+    .sectall {
+        height: 90vh;
     }
 
     // footer

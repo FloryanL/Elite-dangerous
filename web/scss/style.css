@@ -117,10 +117,12 @@ nav a:focus {
 .buybutton {
   border: 2px solid #f07b05; }
 
+.sectall {
+  border-top: 2px solid darkred;
+  box-shadow: 0px 0px 10px 1px darkred; }
+
 .sect1 {
   height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/story/bg-hero-sidewinder.jpg); }
 
 .div1 {
@@ -128,8 +130,6 @@ nav a:focus {
 
 .sect2 {
   height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/story/bg-hero-cobra_attack.jpg); }
 
 .div2 {
@@ -141,8 +141,6 @@ nav a:focus {
 
 .sect3 {
   height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/story/bg-hero-powerplay-right.jpg); }
 
 /* Animate button */
@@ -192,8 +190,6 @@ nav a:focus {
 
 .sect4 {
   height: 58vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/story/bg-hero-powerplay.jpg); }
 
 .div4 {
@@ -201,8 +197,6 @@ nav a:focus {
 
 .sect5 {
   height: 30vh;
-  border-top: 2px solid darkred;
-  box-shadow: 0px 0px 10px 1px darkred;
   background-image: url(../img/story/bg-hero-stars.jpg); }
 
 .div5 {
@@ -329,6 +323,12 @@ ul {
 .gplay {
   background-image: url(../img/gameplay/bg-hero-asp-slim.jpg); }
 
+.sect1gplay {
+  background-image: url(../img/gameplay/bg-hero-connected_gameplay-right.jpg); }
+
+.sect2gplay {
+  background-image: url(../img/gameplay/bg-hero-stars.jpg); }
+
 @media only screen and (max-width: 1370px) {
   .navlogo {
     margin: 1vh 15vh; }
@@ -406,6 +406,9 @@ ul {
     font-size: 26px;
     color: #f07b05;
     line-height: 0.6; }
+
+  .sectall {
+    height: 90vh; }
 
   .navcenter {
     margin: 5vh 10vh 3vh; }
