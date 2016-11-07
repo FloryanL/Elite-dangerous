@@ -69,12 +69,13 @@ header, section, footer {
   border-bottom: none; }
 
 .navtop {
-  font-size: 10px;
+  font-size: 15px;
   margin: 5vh 0vh 1vh; }
 
 .navright {
   text-transform: uppercase;
   padding-right: 16vh;
+  font-size: 15px;
   height: 13vh;
   opacity: 0.9;
   background-color: #040303; }
@@ -320,10 +321,11 @@ ul {
   color: #f07b05;
   text-decoration: underline; }
 
-@media only screen and (max-width: 1500px) {
-  header h1 {
-    font-size: 8vh; }
+/*page gameplay*/
+.gplay {
+  background-image: url(../img/gameplay/bg-hero-asp-slim.jpg); }
 
+@media only screen and (max-width: 1370px) {
   .navlogo {
     margin: 1vh 15vh; }
 
@@ -332,17 +334,20 @@ ul {
     border-bottom: none; }
 
   .navtop {
-    font-size: 9px;
+    font-size: 16px;
     margin: 5vh 0vh 1vh; }
 
   .navright {
-    font-size: 2.2vh;
     padding-right: 16vh;
     height: 13vh; }
 
   .navright li {
+    font-size: 22px;
     display: inline-block;
     margin: 0 1.5vh; }
+
+  header h1 {
+    font-size: 8vh; }
 
   .heado {
     height: 92vh; }
