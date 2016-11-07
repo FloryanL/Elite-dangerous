@@ -83,7 +83,7 @@ header, section, footer {
     border-bottom: none;
 }
 .navtop {
-    font-size: 15px;
+    font-size: 10px;
     margin: 5vh 0vh 1vh;
 }
 .navright {
@@ -164,7 +164,9 @@ nav a:focus {
     box-shadow: $shadow;
     background-image: url(../img/story/bg-hero-powerplay-right.jpg);
 }
-.sect3 button, .sect4 button {
+
+/* Animate button */
+.animbtn {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -176,7 +178,7 @@ nav a:focus {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-.sect3 button:before, .sect4 button:before {
+.animbtn:before {
     content: "";
     background-color: darkred;
     position: absolute;
@@ -196,16 +198,19 @@ nav a:focus {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+.animbtn:hover:before, .animbtn:focus:before, .animbtn:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.btngplay:before {
+    background-color: $color1;
+}
+/* end anim button */
+
 .div3 {
     margin: 10vh 0vh;
     padding: 0vh 1vh 0 15vh;
 }
-.sect3 button:hover:hover:before, .sect3 button:hover:focus:before, .sect3 button:hover:active:before,
-.sect4 button:hover:hover:before, .sect4 button:hover:focus:before, .sect4 button:hover:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
 
 .sect4 {
     height: 58vh;
