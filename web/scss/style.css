@@ -1,19 +1,7 @@
 /*	resolution: 320px	mobile
 	resolution: 768px	tablette
 	resolution: 1280px	standard
-
-@media screen and (max-width: 320px)
-{
-
-}
-@media screen and (max-width: 768px)
-{
-	
-}
-@media screen and (max-width: 1280px)
-{
-	
-}	*/
+*/
 @font-face {
   font-family: "Eurostile LT Std-Bold";
   src: url("../font/EurostileLTStd-Bold.ttf");
@@ -91,7 +79,9 @@ header, section, footer {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out; }
 
-.animbtn:hover:before, .animbtn:focus:before, .animbtn:active:before {
+.animbtn:hover:before,
+.animbtn:focus:before,
+.animbtn:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
@@ -106,20 +96,27 @@ header, section, footer {
   background-image: url(../img/logo/logo-elite-dangerous.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 9.5vh;
+  padding: 12vh;
   border-bottom: none; }
 
 .navtop {
-  font-size: 10px;
-  margin: 5vh 0vh 1vh; }
+  font-size: 11px;
+  margin: 3vh 0vh 0vh; }
+
+.navstore {
+  margin: 0 0.5vh !important; }
 
 .navright {
   text-transform: uppercase;
   padding-right: 16vh;
-  font-size: 15px;
-  height: 13vh;
+  font-size: 16px;
+  height: 16vh;
   opacity: 0.9;
   background-color: #040303; }
+
+.navright li {
+  display: inline-block;
+  margin: 0 1.5vh; }
 
 .navright li a {
   display: inline-block;
@@ -133,15 +130,15 @@ nav a:hover, nav a:focus {
   padding-bottom: 1px;
   border-bottom: 2px solid #f07b05; }
 
-/*nav li:hover, nav li:focus {
-    color: $color1;
-}*/
 nav a:focus {
   text-decoration: none; }
 
 .navactive {
   background-color: #f07b05;
   padding: 0 0.5vh; }
+
+header h1 {
+  font-size: 8vh; }
 
 .heado {
   background-image: url(../img/story/bg-hero-connected_gameplay-slim.jpg);
@@ -171,18 +168,19 @@ nav a:focus {
   background-image: url(../img/story/bg-hero-sidewinder.jpg); }
 
 .div1 {
-  margin: 16vh -5vh; }
+  margin: 14vh -5vh; }
 
 .sect2 {
   height: 58vh;
   background-image: url(../img/story/bg-hero-cobra_attack.jpg); }
 
 .div2 {
-  margin: 12vh 20vh;
-  padding: 0vh 15vh; }
+  margin: 17vh 0vh;
+  padding: 0vh 1vh 0 15vh; }
 
 .textdiv2 {
-  padding: 0 1vh; }
+  padding: 0 1vh;
+  font-size: 12px; }
 
 .sect3 {
   height: 58vh;
@@ -191,6 +189,9 @@ nav a:focus {
 .div3 {
   margin: 10vh 0vh;
   padding: 0vh 1vh 0 15vh; }
+
+.textdiv3 {
+  font-size: 12px; }
 
 .sect4 {
   height: 58vh;
@@ -204,26 +205,29 @@ nav a:focus {
   background-image: url(../img/story/bg-hero-stars.jpg); }
 
 .div5 {
-  color: #f07b05;
-  margin: 9vh 0vh; }
+  margin: 8vh 0vh;
+  color: #f07b05; }
 
 .div5 h1 {
-  font-size: 28px;
+  font-size: 26px;
   color: #f07b05;
   font-family: Eurostile-Medium;
   font-weight: normal;
   line-height: 0.6; }
 
+footer {
+  height: 80vh; }
+
 .navcenter {
   text-transform: uppercase;
   text-align: center;
-  margin: 5vh 10vh 3vh; }
+  margin: 20vh 10vh 3vh; }
 
 .navcenter li {
-  font-size: 13px;
-  display: inline-block;
-  margin: 0 1vh;
-  font-weight: normal; }
+  margin: 0 2vh;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block; }
 
 ul {
   list-style-type: none;
@@ -243,9 +247,9 @@ ul {
   background-size: contain;
   background-position: center center;
   display: inline-block;
-  margin: 0 -6vh;
-  height: 3%;
-  width: 9%; }
+  margin: 0 auto;
+  height: 4vh;
+  width: 3.5vw; }
 
 .soc1 {
   background-image: url(../img/logo/sociaux/logo-twitter.png); }
@@ -274,14 +278,40 @@ ul {
 .marque4 {
   background-image: url(../img/logo/partenaires/logo-nvidia.png); }
 
+.mark1-1 {
+  width: 10vw !important;
+  height: 10vh !important;
+  margin: -1vh -2vh !important; }
+
+.mark1-2 {
+  width: 20vh !important;
+  height: 10vh !important;
+  margin: 0vh !important; }
+
+.mark2-1 {
+  height: 11vh !important;
+  width: 17vw !important; }
+
+.mark2-2 {
+  height: 11vh !important;
+  width: 12vw !important; }
+
+.lifooter {
+  height: 6vh;
+  width: 12vw; }
+
 .mark3 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
   display: inline-block;
-  height: 5%;
-  width: 7%;
-  margin: 0 1vh; }
+  height: 5vh;
+  width: 10.5vw;
+  margin: 0vh -1vh; }
+
+.mark4 {
+  height: 12vh;
+  width: 13vw; }
 
 .marque5 {
   background-image: url(../img/logo/partenaires/logo-oculus.png);
@@ -314,8 +344,8 @@ ul {
   background-image: url(../img/logo/partenaires/logo-esrb-teen.png); }
 
 .textlegal {
-  font-size: 8px;
-  padding: 0 36vh; }
+  font-size: 12px;
+  padding: 3vh 18vh; }
 
 .Mentionlegal {
   color: #f07b05;
@@ -325,9 +355,11 @@ ul {
   color: #f07b05;
   text-decoration: underline; }
 
-/*page gameplay*/
 .gplay {
   background-image: url(../img/gameplay/bg-hero-asp-slim.jpg); }
+
+.sectall {
+  height: 88vh; }
 
 .sect1gplay {
   background-image: url(../img/gameplay/bg-hero-connected_gameplay-right.jpg); }
@@ -369,125 +401,5 @@ ul {
 
 .sect8gplay {
   background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg); }
-
-@media only screen and (max-width: 1370px) {
-  .navlogo {
-    margin: 1vh 15vh; }
-
-  .logo, .logo:hover, .logo:focus {
-    padding: 12vh;
-    border-bottom: none; }
-
-  .navtop {
-    font-size: 11px;
-    margin: 3vh 0vh 0vh; }
-
-  .navstore {
-    margin: 0 0.5vh !important; }
-
-  .navright {
-    font-size: 16px;
-    padding-right: 16vh;
-    height: 16vh; }
-
-  .navright li {
-    display: inline-block;
-    margin: 0 1.5vh; }
-
-  header h1 {
-    font-size: 8vh; }
-
-  .heado {
-    height: 92vh; }
-
-  .tctrl {
-    margin: 56vh auto 1vh; }
-
-  .texth2 {
-    white-space: pre-line;
-    margin: 0vh 0vh 2vh; }
-
-  .div1 {
-    margin: 14vh -5vh; }
-
-  .div2 {
-    margin: 17vh 0vh;
-    padding: 0vh 1vh 0 15vh; }
-
-  .textdiv2 {
-    padding: 0 1vh;
-    font-size: 12px; }
-
-  .div3 {
-    margin: 10vh 0vh;
-    padding: 0vh 1vh 0 15vh; }
-
-  .textdiv3 {
-    font-size: 12px; }
-
-  .div4 {
-    margin: 8vh 0vh; }
-
-  .div5 {
-    margin: 8vh 0vh; }
-
-  .div5 h1 {
-    font-size: 26px;
-    color: #f07b05;
-    line-height: 0.6; }
-
-  .sectall {
-    height: 88vh; }
-
-  footer {
-    height: 80vh; }
-
-  .navcenter {
-    margin: 20vh 10vh 3vh; }
-
-  .navcenter li {
-    font-size: 16px;
-    margin: 0 2vh;
-    font-weight: normal; }
-
-  .marksocial {
-    margin: 0 auto;
-    height: 4vh;
-    width: 3.5vw; }
-
-  .mark1-1 {
-    width: 10vw !important;
-    height: 10vh !important;
-    margin: -1vh -2vh !important; }
-
-  .mark1-2 {
-    width: 20vh !important;
-    height: 10vh !important;
-    margin: 0vh !important; }
-
-  .mark2-1 {
-    height: 11vh !important;
-    width: 17vw !important; }
-
-  .mark2-2 {
-    height: 11vh !important;
-    width: 12vw !important; }
-
-  .lifooter {
-    height: 6vh;
-    width: 12vw; }
-
-  .mark3 {
-    height: 5vh;
-    width: 10.5vw;
-    margin: 0vh -1vh; }
-
-  .mark4 {
-    height: 12vh;
-    width: 13vw; }
-
-  .textlegal {
-    font-size: 12px;
-    padding: 3vh 18vh; } }
 
 /*# sourceMappingURL=style.css.map */
