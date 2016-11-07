@@ -129,6 +129,9 @@ nav a {
   color: white; }
 
 nav a:hover, nav a:focus {
+  color: #f07b05; }
+
+nav li:hover, nav li:focus {
   color: #f07b05;
   border-bottom: 2px solid #f07b05; }
 
@@ -309,11 +312,11 @@ ul {
 
 .textlegal {
   font-size: 8px;
-  padding: 0 36vh;
-  font-weight: normal; }
+  padding: 0 36vh; }
 
 .Mentionlegal {
-  color: #f07b05; }
+  color: #f07b05;
+  font-weight: bold; }
 
 .Mentionlegal:hover {
   color: #f07b05;
@@ -373,15 +376,15 @@ ul {
     border-bottom: none; }
 
   .navtop {
-    font-size: 16px;
+    font-size: 11px;
     margin: 5vh 0vh 1vh; }
 
   .navright {
+    font-size: 16px;
     padding-right: 16vh;
     height: 13vh; }
 
   .navright li {
-    font-size: 22px;
     display: inline-block;
     margin: 0 1.5vh; }
 
@@ -431,20 +434,25 @@ ul {
     height: 88vh; }
 
   footer {
-    height: 88vh; }
+    height: 80vh; }
 
   .navcenter {
-    margin: 5vh 10vh 3vh; }
+    margin: 20vh 10vh 3vh; }
 
   .navcenter li {
-    font-size: 13px;
-    margin: 0 1vh;
+    font-size: 16px;
+    margin: 0 2vh;
     font-weight: normal; }
 
   .marksocial {
     margin: 0 -5vh;
     height: 4vh;
-    width: 9vw; }
+    width: 8vw; }
+
+  .mark1 {
+    width: 20vh !important;
+    height: 10vh !important;
+    margin: 0vh !important; }
 
   .lifooter {
     height: 6vh;
@@ -455,7 +463,7 @@ ul {
     width: 7vw; }
 
   .textlegal {
-    font-size: 8px;
+    font-size: 12px;
     padding: 3vh 12vh; } }
 
 /*# sourceMappingURL=style.css.map */
