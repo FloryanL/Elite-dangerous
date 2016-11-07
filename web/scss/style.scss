@@ -59,7 +59,10 @@ header, section, footer {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+section {
+    border-top: $bordo;
+    box-shadow: $shadow;
+}
 /* Animate button */
 .animbtn {
     display: inline-block;
@@ -176,12 +179,6 @@ header h1 {
 }
 .buybutton {
     border: 2px solid $color1;
-}
-
-// sections story
-.sectall {
-    border-top: $bordo;
-    box-shadow: $shadow;
 }
 .sect1 {
     height: 58vh;
