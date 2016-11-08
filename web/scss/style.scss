@@ -73,6 +73,9 @@ section {
     margin-bottom: 3vh;
     line-height: 1.8;
 }
+.p-right {
+    padding-right: 6vw;
+}
 /* Animate button */
 .animbtn {
     display: inline-block;
@@ -166,14 +169,14 @@ nav a:focus {
 
 // header
 header h1 {
-    font-size: 8vh;
+    font-size: 9vh;
 }
 .heado {
     background-image: url(../img/story/bg-hero-connected_gameplay-slim.jpg);
     background-attachment: fixed;
     background-position: initial;
     background-size: 100%;
-    height: 92vh;
+    height: 100vh;
 }
 .tctrl {
     font-weight: normal;
