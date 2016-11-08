@@ -1,23 +1,7 @@
 /*	resolution: 320px	mobile
 	resolution: 768px	tablette
 	resolution: 1280px	standard
-<<<<<<< HEAD
-
-@media screen and (max-width: 320px)
-{
-
-}
-@media screen and (max-width: 768px)
-{
-	
-}
-@media only screen and (min-width : 1280px) and (max-width : 1824px)
-{
-	
-}	*/
-=======
 */
->>>>>>> 9dd08818df50a2b93612b2b0ab9f6137102ac165
 @font-face {
   font-family: "Eurostile LT Std-Bold";
   src: url("../font/EurostileLTStd-Bold.ttf");
@@ -161,7 +145,7 @@ nav a {
 
 nav a:hover, nav a:focus {
   color: #f07b05;
-  padding-bottom: 1px;
+  margin-bottom: 1px;
   border-bottom: 2px solid #f07b05; }
 
 nav a:focus {
