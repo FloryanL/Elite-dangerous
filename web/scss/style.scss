@@ -126,7 +126,7 @@ section {
     text-transform: uppercase;
     padding-right: 16vh;
     font-size: 16px;
-    height: 16vh;
+    height: 15.5vh;
     opacity: 0.9;
     background-color: #040303;
 }
@@ -426,8 +426,14 @@ ul {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
     background-size: contain;
     background-position: center bottom;
-    height: 48vw;
+    height: 46vw;
 }
 .powerplay {
-    margin-top: 22vh;
+    margin-top: 12vh;
+}
+.pplay {
+    font-size: 48px;
+}
+footer {
+    margin-top: -14vh;
 }
