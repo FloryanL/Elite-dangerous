@@ -424,7 +424,10 @@ ul {
 }
 .sect8gplay {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    height: 48vw;
 }
 .powerplay {
-    margin: 10vh 0vh;
+    margin-top: 22vh;
 }
