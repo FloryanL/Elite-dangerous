@@ -76,6 +76,7 @@ section {
 .p-right {
     padding-right: 6vw;
 }
+
 /* Animate button */
 .animbtn {
     display: inline-block;
@@ -178,9 +179,14 @@ header h1 {
     background-size: 100%;
     height: 100vh;
 }
+/*.bg-scrollfade {
+    transition: .30s;
+    opacity: 0;
+    transform: translate3d(0px, 0px, 0px);
+}*/
 .tctrl {
     font-weight: normal;
-    margin: 56vh auto 1vh;
+    margin: 64vh auto 1vh;
     text-transform: uppercase;
 }
 .texth2 {
@@ -441,6 +447,14 @@ ul {
 }
 .sect7gplay {
     background-image: url(../img/gameplay/bg-hero-cqc-slim.jpg);
+    margin-bottom: 33vh;
+    height: 100vh;
+    background-position: top center;
+    background-size: contain;
+    box-shadow: none;
+}
+.div7 {
+    margin-top: 64vh;
 }
 .sect8gplay {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
