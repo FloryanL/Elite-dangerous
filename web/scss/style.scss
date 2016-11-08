@@ -47,12 +47,14 @@ p {
     font-weight: normal;
 }
 button {
-    border: 2px solid darkred;
+    border: 1px solid darkred;
     background-color: black;
     text-transform: uppercase;
-    font-family: $font1;
-    padding: 2vh 7vh;
-    font-size: 2vh;
+    font-family: "DejaVu Sans";
+    text-align: center;
+    width: 23vw;
+    padding: 2vh 4vh;
+    font-size: 2.5vh;
 }
 header, section, footer {
     font-weight: bold;
@@ -67,6 +69,9 @@ section {
 .parag {
     font-size: 16px;
     font-family: "DejaVu Sans";
+    padding-right: 2vw;
+    margin-bottom: 3vh;
+    line-height: 1.8;
 }
 /* Animate button */
 .animbtn {
@@ -180,7 +185,8 @@ header h1 {
     margin: 0vh 0vh 2vh;
 }
 .buybutton {
-    border: 2px solid $color1;
+    border: 1px solid #f07b05;
+    width: auto;
 }
 .sect1 {
     height: 58vh;
@@ -417,6 +423,12 @@ ul {
 }
 .sect4gplay {
     background-image: url(../img/gameplay/bg-hero-imperial_eagle-left.jpg);
+    height: 39vw;
+    margin-top: -1vh;
+}
+.fed {
+    padding-right: 1vw;
+    line-height: 0.9;
 }
 .sect5gplay {
     background-image: url(../img/gameplay/bg-hero-wings-right.jpg);
@@ -426,7 +438,6 @@ ul {
 }
 .sect7gplay {
     background-image: url(../img/gameplay/bg-hero-cqc-slim.jpg);
-
 }
 .sect8gplay {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
