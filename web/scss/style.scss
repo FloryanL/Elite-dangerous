@@ -64,6 +64,10 @@ section {
     border-top: $bordo;
     box-shadow: $shadow;
 }
+.parag {
+    font-size: 16px;
+    font-family: "DejaVu Sans";
+}
 /* Animate button */
 .animbtn {
     display: inline-block;
@@ -422,6 +426,7 @@ ul {
 }
 .sect7gplay {
     background-image: url(../img/gameplay/bg-hero-cqc-slim.jpg);
+
 }
 .sect8gplay {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);

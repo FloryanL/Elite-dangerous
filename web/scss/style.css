@@ -51,6 +51,10 @@ section {
   border-top: 2px solid darkred;
   box-shadow: 0px 0px 10px 1px darkred; }
 
+.parag {
+  font-size: 16px;
+  font-family: "DejaVu Sans"; }
+
 /* Animate button */
 .animbtn {
   display: inline-block;
