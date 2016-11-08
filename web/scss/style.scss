@@ -423,10 +423,14 @@ ul {
     background-repeat: no-repeat;
     background-size: contain;
     height: 32vh;
-    border-top: 0.5vh solid #f07b05;
+    border-top: 0.5vh solid $color1;
     margin-top: 0.5vh;
 }
 .smallimg1 {
+    background-image: url(../img/gameplay/gameplay-trade.jpg);
+}
+.smallimg1:hover {
+    opacity: 0.7;
     background-image: url(../img/gameplay/gameplay-trade.jpg);
 }
 .smallimg2 {

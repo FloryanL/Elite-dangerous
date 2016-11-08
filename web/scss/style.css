@@ -402,6 +402,10 @@ ul {
 .smallimg1 {
   background-image: url(../img/gameplay/gameplay-trade.jpg); }
 
+.smallimg1:hover {
+  opacity: 0.7;
+  background-image: url(../img/gameplay/gameplay-trade.jpg); }
+
 .smallimg2 {
   background-image: url(../img/gameplay/gameplay-combat.jpg); }
 
