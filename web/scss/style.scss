@@ -37,10 +37,14 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
+    border-left: 2px solid darkred;
+    padding: 0vh 0 0 1vw;
+    margin-left: -2.5vh;
 }
 h2 {
-    font-size: 25px;
     color: $color1;
+    font-size: 25px;
+    line-height: 1;
     text-transform: uppercase;
 }
 p {
@@ -171,6 +175,8 @@ nav a:focus {
 // header
 header h1 {
     font-size: 9vh;
+    border-left: none;
+    padding-left: none;
 }
 .heado {
     background-image: url(../img/story/bg-hero-connected_gameplay-slim.jpg);
@@ -416,7 +422,9 @@ ul {
 .small {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 31vh;
+    height: 32vh;
+    border-top: 0.5vh solid #f07b05;
+    margin-top: 0.5vh;
 }
 .smallimg1 {
     background-image: url(../img/gameplay/gameplay-trade.jpg);
@@ -436,7 +444,7 @@ ul {
     margin-top: -1vh;
 }
 .fed {
-    padding-right: 1vw;
+    padding-right: 4vw;
     line-height: 0.9;
 }
 .sect5gplay {
@@ -455,6 +463,13 @@ ul {
 }
 .div7 {
     margin-top: 64vh;
+}
+.bordered {
+    height: 7vh;
+    padding-top: 0.5vh;
+}
+.cqc {
+    line-height: 1.6;
 }
 .sect8gplay {
     background-image: url(../img/gameplay/bg-hero-powerplay-bottom.jpg);
