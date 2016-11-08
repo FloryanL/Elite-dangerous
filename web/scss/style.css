@@ -21,11 +21,12 @@ a:hover, a:visited {
 
 h1 {
   font-family: Eurostile LT Std-Bold, sans-serif;
+  font-size: 48px;
   font-weight: bold;
   text-transform: uppercase; }
 
 h2 {
-  font-size: 18px;
+  font-size: 25px;
   color: #f07b05;
   text-transform: uppercase; }
 
@@ -404,9 +405,6 @@ ul {
 
 .powerplay {
   margin-top: 12vh; }
-
-.pplay {
-  font-size: 48px; }
 
 footer {
   margin-top: -14vh; }

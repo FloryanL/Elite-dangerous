@@ -34,11 +34,12 @@ a:hover, a:visited {
 }
 h1 {
     font-family: $font1;
+    font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
 }
 h2 {
-    font-size: 18px;
+    font-size: 25px;
     color: $color1;
     text-transform: uppercase;
 }
@@ -430,9 +431,6 @@ ul {
 }
 .powerplay {
     margin-top: 12vh;
-}
-.pplay {
-    font-size: 48px;
 }
 footer {
     margin-top: -14vh;
