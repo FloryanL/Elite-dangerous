@@ -392,19 +392,24 @@ ul {
 .marg {
   padding: 12vh 16vh; }
 
+.box {
+  background-color: #f07b05;
+  overflow: hidden; }
+
 .small {
   background-repeat: no-repeat;
   background-size: contain;
-  height: 32vh;
+  height: 31.5vh;
   border-top: 0.5vh solid #f07b05;
   margin-top: 0.5vh; }
 
 .smallimg1 {
   background-image: url(../img/gameplay/gameplay-trade.jpg); }
 
-.smallimg1:hover {
-  opacity: 0.7;
-  background-image: url(../img/gameplay/gameplay-trade.jpg); }
+.smallimg1:hover, .smallimg2:hover, .smallimg3:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1); }
 
 .smallimg2 {
   background-image: url(../img/gameplay/gameplay-combat.jpg); }
