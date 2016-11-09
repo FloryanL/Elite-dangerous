@@ -401,7 +401,8 @@ ul {
   background-size: contain;
   height: 31.5vh;
   border-top: 0.5vh solid #f07b05;
-  margin-top: 0.5vh; }
+  margin-top: 0vh;
+  margin-bottom: -1.5vh; }
 
 .smallimg1 {
   background-image: url(../img/gameplay/gameplay-trade.jpg); }
