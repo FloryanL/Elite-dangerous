@@ -144,7 +144,7 @@ nav a {
   color: white; }
 
 nav a:hover, nav a:focus {
-  color: #f07b05;
+  color: white;
   margin-bottom: 1px;
   border-bottom: 2px solid #f07b05; }
 
@@ -154,6 +154,10 @@ nav a:focus {
 .navactive {
   background-color: #f07b05;
   padding: 0 0.5vh; }
+
+.navactive:hover {
+  background-color: darkred;
+  margin-bottom: 1px; }
 
 header h1 {
   font-size: 9vh;
