@@ -57,7 +57,6 @@ p {
 }
 button {
     width: 23vw;
-    /*opacity: 0.7;*/
     padding: 2vh 4vh;
     font-size: 2.5vh;
     font-weight: bold;
@@ -66,7 +65,7 @@ button {
     text-transform: uppercase;
     font-family: $font3;
     border: 2px solid darkred;
-    background-color: transparent;
+    background: rgba(0,0,0, .5);
 }
 header, section, footer {
     font-weight: bold;
@@ -513,7 +512,7 @@ ul {
     margin-top: -1vh;
 }
 .div4gplay {
-    margin: 14vh -5vh;
+    margin: 14vh -1vh;
 }
 .fed {
     padding-right: 4vw;
@@ -521,6 +520,9 @@ ul {
 }
 .sect5gplay {
     background-image: url(../img/gameplay/bg-hero-wings-right.jpg);
+}
+.marg5 {
+    margin: 18vh 3.5vh;
 }
 .sect6gplay {
     background-image: url(../img/gameplay/bg-hero-community-zac.jpg);
