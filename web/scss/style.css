@@ -128,6 +128,7 @@ section {
   text-transform: uppercase;
   padding-right: 16vh;
   font-size: 16px;
+  -moz-font-size: 16px;
   height: 15.5vh;
   opacity: 0.9;
   background-color: #040303; }
@@ -144,7 +145,7 @@ nav a {
   color: white; }
 
 nav a:hover, nav a:focus {
-  color: white;
+  color: #f07b05;
   margin-bottom: 1px;
   border-bottom: 2px solid #f07b05; }
 
@@ -152,12 +153,17 @@ nav a:focus {
   text-decoration: none; }
 
 .navactive {
-  background-color: #f07b05;
-  padding: 0 0.5vh; }
+  padding: 0 0.5vh;
+  background-color: #f07b05; }
 
 .navactive:hover {
   background-color: darkred;
-  margin-bottom: 1px; }
+  border-bottom: 2px solid #f07b05; }
+
+.navactive a, .navactive a:hover {
+  color: white;
+  margin: 0 0.5vh !important;
+  border-bottom: none; }
 
 header h1 {
   font-size: 9vh;
