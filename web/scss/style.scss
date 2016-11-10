@@ -21,6 +21,7 @@ $font1: Eurostile LT Std-Bold, sans-serif;
 $font2: Eurostile-Medium;
 $font3: "DejaVu Sans";
 $bordo: 2px solid darkred;
+$opacolor: 2px solid rgba(139, 0, 0, .7);
 $shadow: 0px 0px 10px 1px darkred;
 $color1: #f07b05;
 
@@ -38,7 +39,7 @@ h1 {
     font-size: 47px;
     font-weight: bold;
     text-transform: uppercase;
-    border-left: 2px solid darkred;
+    border-left: $opacolor;
     padding: 0vh 0 0 1vw;
     margin-left: -2.5vh;
     margin-right: 2vh;
@@ -56,9 +57,10 @@ p {
 }
 button {
     width: 23vw;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     padding: 2vh 4vh;
     font-size: 2.5vh;
+    font-weight: bold;
     text-align: center;
     margin: 3vh 0 0 -2vh;
     text-transform: uppercase;
@@ -457,6 +459,18 @@ ul {
 // sections gameplay
 .sect1gplay {
     background-image: url(../img/gameplay/bg-hero-connected_gameplay-right.jpg);
+}
+.divgplay {
+    margin: 15vh 3.5vh;
+    padding: 0vh 1vh 0 15vh;
+}
+.divgplay h1 {
+    margin: 0 0 3vh -3.5vh;
+    height: 14vh;
+    padding: 1vh 0 0 3vh;
+}
+.pargplay {
+    line-height: 1.6;
 }
 .sect2gplay {
     background-image: url(../img/gameplay/bg-hero-stars.jpg);
