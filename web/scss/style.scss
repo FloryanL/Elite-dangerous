@@ -51,8 +51,9 @@ p {
     font-weight: normal;
 }
 button {
-    border: 1px solid darkred;
-    background-color: black;
+    border: 2px solid darkred;
+    background-color: transparent;
+    opacity: 0.7;
     text-transform: uppercase;
     font-family: "DejaVu Sans";
     text-align: center;
@@ -77,6 +78,14 @@ section {
     margin-bottom: 3vh;
     line-height: 1.8;
 }
+/*.parag:after {
+    content: "";
+    width: 1.5vh;
+    height: 1.5vh;
+    background-color: darkred;
+    display: inline-block;
+    margin: -5.8vh;;
+}*/
 .p-right {
     padding-right: 6vw;
 }
@@ -215,7 +224,7 @@ header h1 {
     margin: 0vh 0vh 2vh;
 }
 .buybutton {
-    border: 1px solid #f07b05;
+    border: 2px solid #f07b05;
     width: auto;
 }
 .sect1 {
@@ -223,7 +232,7 @@ header h1 {
     background-image: url(../img/story/bg-hero-sidewinder.jpg);
 }
 .div1 {
-    margin: 14vh -5vh;
+    margin: 23.5vh -1.5vh;
 }
 .sect2 {
     height: 58vh;
@@ -471,6 +480,9 @@ ul {
     background-image: url(../img/gameplay/bg-hero-imperial_eagle-left.jpg);
     height: 39vw;
     margin-top: -1vh;
+}
+.div4gplay {
+    margin: 14vh -5vh;
 }
 .fed {
     padding-right: 4vw;
