@@ -19,6 +19,7 @@
 // sass
 $font1: Eurostile LT Std-Bold, sans-serif;
 $font2: Eurostile-Medium;
+$font3: "DejaVu Sans";
 $bordo: 2px solid darkred;
 $shadow: 0px 0px 10px 1px darkred;
 $color1: #f07b05;
@@ -34,17 +35,20 @@ a:hover, a:visited {
 }
 h1 {
     font-family: $font1;
-    font-size: 48px;
+    font-size: 47px;
     font-weight: bold;
     text-transform: uppercase;
     border-left: 2px solid darkred;
     padding: 0vh 0 0 1vw;
     margin-left: -2.5vh;
+    margin-right: 2vh;
+    line-height: 0.9;
 }
 h2 {
     color: $color1;
-    font-size: 25px;
     line-height: 1;
+    font-size: 25px;
+    margin: 2vh 1vh 4vh 0vh;
     text-transform: uppercase;
 }
 p {
@@ -58,7 +62,7 @@ button {
     text-align: center;
     margin: 3vh 0 0 -2vh;
     text-transform: uppercase;
-    font-family: "DejaVu Sans";
+    font-family: $font3;
     border: 2px solid darkred;
     background-color: transparent;
 }
@@ -74,7 +78,7 @@ section {
 }
 .parag {
     font-size: 16px;
-    font-family: "DejaVu Sans";
+    font-family: $font3;
     padding-right: 2vw;
     margin-bottom: 3vh;
     line-height: 1.8;
@@ -142,11 +146,11 @@ section {
 
 // navbar
 .navlogo {
-    margin: 1vh 15vh;
+    margin: 0.8vh 16.8vh;
 }
 .logo, .logo:hover, .logo:focus {
     background-image: url(../img/logo/logo-elite-dangerous.png);
-    background-size: 100%;
+    background-size: 98%;
     background-repeat: no-repeat;
     padding: 12vh;
     border-bottom: none;
@@ -155,9 +159,12 @@ section {
     font-size: 11px;
     margin: 3vh 0vh 0vh;
 }
+.navtop li {
+    margin: 0 1vh !important;
+}
 .navright {
     text-transform: uppercase;
-    padding-right: 16vh;
+    padding-right: 19vh;
     font-size: 16px;
     -moz-font-size: 16px;
     height: 15.5vh;
@@ -204,7 +211,7 @@ nav a:focus, nav a:active {
 
 // header
 header h1 {
-    font-size: 9vh;
+    font-size: 9.5vh;
     border-left: none;
     padding-left: none;
 }
@@ -232,6 +239,7 @@ header h1 {
 .buybutton {
     border: 2px solid #f07b05;
     width: auto;
+    font-weight: bold;
 }
 .sect1 {
     height: 58vh;
@@ -239,13 +247,14 @@ header h1 {
 }
 .div1 {
     margin: 23.5vh -1.5vh;
+    padding-right: 10vh;
 }
 .sect2 {
     height: 58vh;
     background-image: url(../img/story/bg-hero-cobra_attack.jpg);
 }
 .div2 {
-    margin: 17vh 0vh;
+    margin: 24vh 3.5vh;
     padding: 0vh 1vh 0 15vh;
 }
 .textdiv2 {
@@ -257,7 +266,7 @@ header h1 {
     background-image: url(../img/story/bg-hero-powerplay-right.jpg);
 }
 .div3 {
-    margin: 10vh 0vh;
+    margin: 15.1vh 3.5vh;
     padding: 0vh 1vh 0 15vh;
 }
 .textdiv3 {
@@ -269,9 +278,10 @@ header h1 {
 }
 .div4 {
     margin: 8vh 0vh;
+    padding-right: 14vh;
 }
 .sect5 {
-    height: 30vh;
+    height: 32vh;
     background-image: url(../img/story/bg-hero-stars.jpg);
 }
 .div5 {
@@ -279,11 +289,11 @@ header h1 {
     color: $color1;
 }
 .div5 h1 {
-    font-size: 26px;
+    font-size: 35px;
     color: $color1;
     font-family: $font2;
     font-weight: normal;
-    line-height: 0.6;
+    line-height: 0.45;
 }
 
 // footer
@@ -296,7 +306,7 @@ footer {
     margin: 20vh 10vh 3vh;
 }
 .navcenter li {
-    margin: 0 2vh;
+    margin: 0 1.4vh;
     font-size: 16px;
     font-weight: normal;
     display: inline-block;
@@ -420,8 +430,9 @@ ul {
     background-image: url(../img/logo/partenaires/logo-esrb-teen.png);
 }
 .textlegal {
-    font-size: 12px;
+    font-size: 11px;
     padding: 3vh 18vh;
+    font-family: $font3;
 }
 .Mentionlegal {
     color: $color1;
