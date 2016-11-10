@@ -51,15 +51,16 @@ p {
     font-weight: normal;
 }
 button {
-    border: 2px solid darkred;
-    background-color: transparent;
-    opacity: 0.7;
-    text-transform: uppercase;
-    font-family: "DejaVu Sans";
-    text-align: center;
     width: 23vw;
+    opacity: 0.7;
     padding: 2vh 4vh;
     font-size: 2.5vh;
+    text-align: center;
+    margin: 3vh 0 0 -2vh;
+    text-transform: uppercase;
+    font-family: "DejaVu Sans";
+    border: 2px solid darkred;
+    background-color: transparent;
 }
 header, section, footer {
     font-weight: bold;
@@ -78,14 +79,15 @@ section {
     margin-bottom: 3vh;
     line-height: 1.8;
 }
-/*.parag:after {
+.dot:after, .dot1:after {
     content: "";
     width: 1.5vh;
     height: 1.5vh;
     background-color: darkred;
-    display: inline-block;
-    margin: -5.8vh;;
-}*/
+    /*display: inline-block;*/
+    margin: 6vh 0 0;
+    float: left;
+}
 .p-right {
     padding-right: 6vw;
 }
@@ -133,6 +135,10 @@ section {
     background-color: $color1;
 }
 /* end anim button */
+
+.headbtn {
+    margin: 1vh;
+}
 
 // navbar
 .navlogo {
