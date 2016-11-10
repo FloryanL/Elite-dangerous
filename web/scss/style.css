@@ -158,12 +158,11 @@ nav a:focus {
 
 .navactive:hover {
   background-color: darkred;
-  border-bottom: 2px solid #f07b05; }
+  border-bottom: 2px solid #f07b05;
+  color: white; }
 
-.navactive a, .navactive a:hover {
-  color: white;
-  margin: 0 0.5vh !important;
-  border-bottom: none; }
+.navactive li, .navactive li:hover {
+  border-bottom: none !important; }
 
 header h1 {
   font-size: 9vh;
@@ -259,6 +258,10 @@ footer {
   margin: 0 2vh;
   font-size: 16px;
   font-weight: normal;
+  display: inline-block; }
+
+.navcenter a {
+  margin-bottom: 1vh;
   display: inline-block; }
 
 ul {
